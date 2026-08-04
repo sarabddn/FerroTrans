@@ -13,7 +13,7 @@ export default function Contact() {
     const formData = new FormData(form);
 
     // CHIAVE WEB3FORMS (GRATIS) - Sostituisci questo testo con la tua chiave
-    formData.append("access_key", "INSERISCI_QUI_LA_TUA_CHIAVE_WEB3FORMS");
+    formData.append("access_key", "db837fd4-12c1-478f-8516-a2abf00c95d0");
 
     fetch('https://api.web3forms.com/submit', {
       method: 'POST',
