@@ -1,0 +1,6 @@
+{
+  "name": "Ritiro Ferro e Sgomberi",
+  "description": "Sito web ottimizzato SEO per servizi di trasporto ferro, rottami, smaltimento metalli e traslochi industriali.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
