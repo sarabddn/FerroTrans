@@ -12,11 +12,13 @@ export default function Contact() {
     const form = e.currentTarget;
     const formData = new FormData(form);
 
-    // CHIAVE WEB3FORMS (GRATIS) - Sostituisci questo testo con la tua chiave
-    formData.append("access_key", "db837fd4-12c1-478f-8516-a2abf00c95d0");
-
-    fetch('https://api.web3forms.com/submit', {
+    // FormSubmit.co - gratis per sempre, submission illimitate, nessuna registrazione.
+    // IMPORTANTE: la prima volta che qualcuno invia il form, FormSubmit manda
+    // un'email di conferma a mustafalamta@gmail.com con un link da cliccare:
+    // da quel momento in poi tutte le submission arrivano automaticamente.
+    fetch('https://formsubmit.co/mustafalamta@gmail.com', {
       method: 'POST',
+      headers: { 'Accept': 'application/json' },
       body: formData
     })
       .then(async (response) => {
@@ -86,6 +88,9 @@ export default function Contact() {
           
           <div className="bg-slate-50 p-8 rounded-xl border border-slate-200">
             <form className="space-y-6" onSubmit={handleSubmit}>
+              <input type="hidden" name="_subject" value="Nuova richiesta di preventivo - FerroTrans" />
+              <input type="hidden" name="_captcha" value="false" />
+              <input type="hidden" name="_template" value="table" />
               <div>
                 <label htmlFor="name" className="block text-sm font-medium text-slate-700 mb-1">Nome / Azienda</label>
                 <input type="text" id="name" name="name" required className="w-full px-4 py-3 rounded-md border border-slate-300 focus:ring-2 focus:ring-amber-500 focus:border-amber-500 outline-none transition-all" placeholder="Es. Mario Rossi" />
