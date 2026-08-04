@@ -16,7 +16,7 @@ export default function Contact() {
     // IMPORTANTE: la prima volta che qualcuno invia il form, FormSubmit manda
     // un'email di conferma a mustafalamta@gmail.com con un link da cliccare:
     // da quel momento in poi tutte le submission arrivano automaticamente.
-    fetch('https://formsubmit.co/mustafalamta@gmail.com', {
+    fetch('https://formsubmit.co/sara.bddn@gmail.com', {
       method: 'POST',
       headers: { 'Accept': 'application/json' },
       body: formData
