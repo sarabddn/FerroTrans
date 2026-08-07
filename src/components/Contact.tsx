@@ -12,13 +12,11 @@ export default function Contact() {
     const form = e.currentTarget;
     const formData = new FormData(form);
 
-    // FormSubmit.co - gratis per sempre, submission illimitate, nessuna registrazione.
-    // IMPORTANTE: la prima volta che qualcuno invia il form, FormSubmit manda
-    // un'email di conferma a mustafalamta@gmail.com con un link da cliccare:
-    // da quel momento in poi tutte le submission arrivano automaticamente.
-    fetch('https://formsubmit.co/mustafalamta@gmail.com', {
+    // CHIAVE WEB3FORMS (GRATIS) - Sostituisci questo testo con la tua chiave
+    formData.append("access_key", "INSERISCI_QUI_LA_TUA_CHIAVE_WEB3FORMS");
+
+    fetch('https://api.web3forms.com/submit', {
       method: 'POST',
-      headers: { 'Accept': 'application/json' },
       body: formData
     })
       .then(async (response) => {
@@ -46,7 +44,7 @@ export default function Contact() {
           <div>
             <h2 className="text-3xl font-extrabold text-slate-900 mb-6">Richiedi un Preventivo Gratuito su Firenze</h2>
             <p className="text-lg text-slate-600 mb-8">
-              Hai bisogno di ritirare del ferro, svuotare una cantina o organizzare un piccolo trasloco a Firenze o provincia? 
+              Hai bisogno di ritirare del ferro, svuotare una cantina o sgomberare un locale a Firenze o provincia? 
               Contattaci per un sopralluogo o una quotazione immediata.
             </p>
             
@@ -88,9 +86,6 @@ export default function Contact() {
           
           <div className="bg-slate-50 p-8 rounded-xl border border-slate-200">
             <form className="space-y-6" onSubmit={handleSubmit}>
-              <input type="hidden" name="_subject" value="Nuova richiesta di preventivo - FerroTrans" />
-              <input type="hidden" name="_captcha" value="false" />
-              <input type="hidden" name="_template" value="table" />
               <div>
                 <label htmlFor="name" className="block text-sm font-medium text-slate-700 mb-1">Nome / Azienda</label>
                 <input type="text" id="name" name="name" required className="w-full px-4 py-3 rounded-md border border-slate-300 focus:ring-2 focus:ring-amber-500 focus:border-amber-500 outline-none transition-all" placeholder="Es. Mario Rossi" />
@@ -115,7 +110,7 @@ export default function Contact() {
                   <option>Recupero Ferro e Metalli</option>
                   <option>Sgomberi</option>
                   <option>Svuota Cantina, Garage e Soffitte</option>
-                  <option>Piccoli Traslochi</option>
+                  <option>Ritiro Mobili e Ingombranti</option>
                   <option>Altro</option>
                 </select>
               </div>
