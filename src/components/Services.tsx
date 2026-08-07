@@ -17,8 +17,8 @@ const services = [
     icon: Home
   },
   {
-    title: 'Piccoli Traslochi e Trasporti',
-    description: 'Servizio di trasporto e piccoli traslochi con mezzi adeguati per ogni tua esigenza logistica a Firenze e Toscana.',
+    title: 'Ritiro Mobili e Ingombranti',
+    description: 'Servizio di trasporto e ritiro di mobili vecchi, elettrodomestici e materiali ingombranti da smaltire a Firenze e Toscana.',
     icon: Truck
   }
 ];
