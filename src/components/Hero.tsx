@@ -10,8 +10,8 @@ export default function Hero() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="max-w-2xl">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
-              Recupero Ferro, <br/>
-              <span className="text-amber-500">Sgomberi a Firenze</span>
+              Sgomberi a Firenze, <br/>
+              <span className="text-amber-500">Ritiro Ferro e Metalli</span>
             </h1>
             <p className="text-xl text-slate-300 mb-8">
               Svuotiamo cantine, garage e soffitte in tempi record a Firenze e Provincia. Ritiriamo ferro, metalli, vecchi elettrodomestici e molto altro!
