@@ -1,0 +1,6 @@
+{
+  "name": "Ritiro Ferro e Sgomberi",
+  "description": "Sito web ottimizzato SEO per servizi di ritiro ferro, sgomberi, svuotamento cantine, rottami e smaltimento metalli a Firenze.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
