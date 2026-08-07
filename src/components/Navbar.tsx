@@ -7,7 +7,7 @@ export default function Navbar() {
         <div className="flex justify-between h-20 items-center">
           <div className="flex items-center space-x-2">
             <Truck className="h-8 w-8 text-amber-500" />
-            <span className="font-bold text-xl tracking-tight uppercase">Ritiro<span className="text-amber-500">Ferro</span> & Sgomberi</span>
+            <span className="font-bold text-xl tracking-tight uppercase">Sgomberi<span className="text-amber-500">Firenze</span> & Ritiro Ferro</span>
           </div>
           <div className="hidden md:flex space-x-8 items-center">
             <a href="#servizi" className="hover:text-amber-500 transition-colors">Servizi</a>
