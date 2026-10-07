@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+html {
+  scroll-padding-top: 5.5rem; /* spazio per la barra in alto quando si salta a una sezione */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}

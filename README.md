@@ -1,20 +1,18 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Mastro Sgombero - sito web
 
-# Run and deploy your AI Studio app
+Sgomberi e ritiro ferro a Firenze ed Empoli. React + Vite + Tailwind, pubblicato con GitHub Pages.
 
-This contains everything you need to run your app locally.
+## Cose da fare prima di andare online
+1. **Modulo preventivi:** crea la chiave gratuita su https://web3forms.com e incollala in `src/components/Contact.tsx` (`WEB3FORMS_KEY`).
+2. **Dominio:** quando lo hai, aggiungi `public/CNAME` con il dominio e cambia l'indirizzo in `index.html`, `public/sitemap.xml` e `public/robots.txt`.
+3. **Dati dell'attività** (telefono, email, indirizzo, P.IVA): `src/data/site.ts`.
+4. **Domande frequenti:** `src/data/faq.ts`.
+5. **Privacy e cookie:** `public/privacy.html` e `public/cookie.html` sono testi base, da far verificare.
 
-View your app in AI Studio: https://ai.studio/apps/daddf138-2718-4129-89e3-9096ade4d963
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Comandi
+```
+npm install
+npm run dev      # anteprima su http://localhost:3000
+npm run build    # crea la cartella dist
+```
+Il deploy parte da solo a ogni push su `main` (`.github/workflows/deploy.yml`).
