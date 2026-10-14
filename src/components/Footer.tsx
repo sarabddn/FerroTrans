@@ -13,10 +13,18 @@ export default function Footer() {
 
         <div className="text-sm text-center md:text-left mb-4 md:mb-0">
           <p>&copy; {new Date().getFullYear()} Mastro Sgombero. Tutti i diritti riservati.</p>
-          <p className="mt-1">Sgomberi, ritiro rottami e ingombranti a Firenze ed Empoli.</p>
+          <p className="mt-1">Sgomberi, traslochi, ritiro rottami e ingombranti a Empoli e Firenze.</p>
           <p className="mt-1 text-slate-300">Autotrasportatore con licenza conto terzi e abilitazione ADR.</p>
           <p className="mt-1 text-slate-300">Sede: {ADDRESS} | P.IVA: {VAT}</p>
-          <p className="mt-2 text-xs text-slate-400">Aree coperte: Firenze, Scandicci, Sesto Fiorentino, Campi Bisenzio, Empoli e provincia.</p>
+          <p className="mt-2 text-xs text-slate-400">Aree coperte: Empoli, Firenze, Scandicci, Sesto Fiorentino, Campi Bisenzio e provincia.</p>
+          <p className="mt-2 text-xs">
+            <a href={`${base}sgombero-cantine-empoli/`} className="hover:text-white">Sgombero cantine Empoli</a> ·{' '}
+            <a href={`${base}sgomberi-empoli/`} className="hover:text-white">Sgomberi Empoli</a> ·{' '}
+            <a href={`${base}traslochi-e-sgomberi-empoli/`} className="hover:text-white">Traslochi e sgomberi Empoli</a> ·{' '}
+            <a href={`${base}ritiro-ferro-metalli-empoli/`} className="hover:text-white">Ritiro ferro Empoli</a> ·{' '}
+            <a href={`${base}sgomberi-firenze/`} className="hover:text-white">Sgomberi Firenze</a> ·{' '}
+            <a href={`${base}ritiro-ferro-metalli-firenze/`} className="hover:text-white">Ritiro ferro Firenze</a>
+          </p>
         </div>
 
         <div className="flex space-x-6">

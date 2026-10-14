@@ -1,7 +1,7 @@
 // Dati dell'attività: modificali qui e si aggiornano in tutto il sito.
 
 export const BUSINESS_NAME = 'Mastro Sgombero';
-export const TAGLINE = 'Sgomberi e Ritiro · Firenze';
+export const TAGLINE = 'Sgomberi e Ritiro · Empoli e Firenze';
 
 export const PHONE_DISPLAY = '+39 329 366 0886';
 export const PHONE_SHORT = '329 366 0886';
@@ -24,6 +24,7 @@ export const serviceOptions = [
   'Sgomberi',
   'Svuota Cantina, Garage e Soffitte',
   'Ritiro Mobili e Ingombranti',
+  'Traslochi e Trasporti',
   'Altro',
 ] as const;
 

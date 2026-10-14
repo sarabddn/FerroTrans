@@ -10,11 +10,11 @@ export default function Hero() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="max-w-2xl">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
-              Sgomberi a Firenze, <br/>
+              Sgomberi e Traslochi a Empoli e Firenze<br/>
               <span className="text-amber-500">Ritiro Ferro e Metalli</span>
             </h1>
             <p className="text-xl text-slate-300 mb-8">
-              Svuotiamo cantine, garage e soffitte a Firenze, Empoli e provincia. Ritiriamo ferro, metalli, vecchi elettrodomestici e molto altro!
+              Svuotiamo cantine, garage e soffitte a Empoli, Firenze e provincia. Sgomberi, traslochi e trasporti, ritiro di ferro, metalli, mobili e vecchi elettrodomestici.
             </p>
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
               <a href="#contatti" className="flex items-center justify-center space-x-2 bg-amber-500 text-slate-900 px-8 py-4 rounded-md font-bold text-lg hover:bg-amber-400 transition-colors w-full sm:w-auto">

@@ -8,6 +8,10 @@ export const faqs = [
     a: 'Dipende dalla quantità di materiale, dal piano e dall\'accesso, dal tipo di oggetti e dalla distanza. Dopo il sopralluogo o le foto ti diamo un preventivo chiaro prima di iniziare.',
   },
   {
+    q: 'Fate anche traslochi e trasporti?',
+    a: 'Sì: oltre agli sgomberi trasportiamo mobili e merci con furgone e autista, anche in abbinamento allo sgombero della vecchia casa. Siamo autotrasportatori con licenza conto terzi. Chiamaci o scrivici su WhatsApp per un preventivo.',
+  },
+  {
     q: 'Ritirate anche ferro e metalli?',
     a: 'Sì, ritiriamo ferro, rame, alluminio, ottone e altri metalli da privati e aziende. Il valore del materiale si valuta caso per caso, in base al tipo e alla quantità: chiedici una stima.',
   },
@@ -17,7 +21,7 @@ export const faqs = [
   },
   {
     q: 'In quali zone lavorate?',
-    a: 'Firenze, Scandicci, Sesto Fiorentino, Campi Bisenzio, Empoli e provincia. Per altre zone della Toscana chiedici la disponibilità.',
+    a: 'La nostra sede è a Empoli. Lavoriamo a Empoli, Firenze, Scandicci, Sesto Fiorentino, Campi Bisenzio e provincia. Per altre zone della Toscana chiedici la disponibilità.',
   },
   {
     q: 'Cosa significano licenza conto terzi e ADR?',
