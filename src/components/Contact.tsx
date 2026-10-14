@@ -14,7 +14,7 @@ import {
 // CHIAVE WEB3FORMS (gratis): vai su https://web3forms.com, inserisci l'email
 // dove vuoi ricevere le richieste e incolla qui la chiave che ti arriva.
 // Finché qui c'è il testo di esempio, il modulo NON invia nulla.
-const WEB3FORMS_KEY = 'INSERISCI_QUI_LA_TUA_CHIAVE_WEB3FORMS';
+const WEB3FORMS_KEY = '54eb4b5c-b8d7-4efa-a1b7-c30e65759a75';
 
 const inputClass =
   'w-full px-4 py-3 rounded-md border border-slate-300 focus:ring-2 focus:ring-amber-500 focus:border-amber-500 outline-none transition-all';
